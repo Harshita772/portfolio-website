@@ -3,7 +3,7 @@ import { useRef } from "react";
 import {
   SiJavascript, SiTypescript, SiPython, SiCplusplus, SiReact, SiHtml5, SiCss3, SiTailwindcss,
   SiNextdotjs, SiNodedotjs, SiGit, SiDocker, SiGooglecloud, SiMongodb, SiMysql, SiPostman,
-  SiC, SiExpress, SiArduino, SiFigma, SiPytorch, SiOpencv, SiPandas, SiNumpy, SiScikitlearn,
+  SiC, SiExpress, SiArduino, SiFigma, SiPytorch, SiOpencv, SiPandas, SiNumpy, SiScikitlearn, SiStreamlit
 } from "react-icons/si";
 
 // ================== SKILLS DATA ==================
@@ -26,6 +26,7 @@ const skillCategories = [
       { name: "CSS", icon: SiCss3 },
       { name: "Tailwind CSS", icon: SiTailwindcss },
       { name: "Next.js", icon: SiNextdotjs },
+      { name: "Streamlit", icon: SiStreamlit },
     ],
   },
   {
