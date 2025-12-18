@@ -9,10 +9,10 @@ const experiences = [
   {
     type: "experience",
     icon: Briefcase,
-    title: "Technical Intern",
+    title: "Upcoming Technical Intern",
     organization: "Tech Mahindra",
     period: "Summer 2026",
-    description: "Worked on developing and maintaining web applications using React and Node.js. Collaborated with the team on various projects.",
+    description: "",
   },
   {
     type: "achievement",
