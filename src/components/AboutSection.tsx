@@ -53,7 +53,7 @@ const AboutSection = () => {
             {/* EDIT YOUR BIO HERE */}
             <p className="text-foreground/90 leading-relaxed text-lg">
               I’m a passionate developer who loves turning ideas into real-world applications. I spend my time writing code,
-               breaking it, fixing it, and occasionally wondering why it worked. Currently exploring machine learning and its applications.
+               breaking it, fixing it, and occasionally wondering why it worked. Currently exploring Machine Learning and Blockchain.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               When I'm not coding, you can find me listening to music, or going down random internet rabbit holes that 

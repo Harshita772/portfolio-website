@@ -6,35 +6,33 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 // EDIT YOUR PROJECTS HERE - Update with your actual projects
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with user authentication, product management, shopping cart, and secure payment integration.",
-    techStack: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Image Retreival",
+    description: "Developed an image retrieval system using ML techniques to classify and retrieve similar images from CIFAR-10 dataset.",
+    techStack: ["Python", "Torch", "Torchvision", "Streamlit"],
+    github: "https://github.com/Harshita772/Image-Retrieval_PRML",
+    
     featured: true,
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    techStack: ["React", "Firebase", "Tailwind CSS", "TypeScript"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Typing Speed Test Game",
+    description: "Developed an interactive typing speed test web application allowing users to practice typing and measure their performance in real time.",
+    techStack: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/Harshita772/TypingSpeedTest.github.io",
+    live: "https://harshita772.github.io/TypingSpeedTest.github.io/",
     featured: true,
   },
   {
-    title: "Weather Dashboard",
-    description: "An interactive weather dashboard that displays current conditions, forecasts, and weather alerts for multiple locations.",
-    techStack: ["JavaScript", "OpenWeather API", "Chart.js", "CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "MIPS Simulator",
+    description: "Designed a MIPS processor simulator in Logisim implementing a single-cycle datapath with core components like ALU, register file, control unit, program counter and memory.",
+    techStack: ["Logisim", "MIPS"],
+    github: "https://github.com/Harshita772/MIPS-Simulator",
     featured: false,
   },
   {
-    title: "Portfolio Website",
-    description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and clean design.",
-    techStack: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Maze Escape Game",
+    description: "Designed a console based maze game that implements path-finding and backtracking to show optimal navigation paths.",
+    techStack: ["C", "DFS Algorithm"],
+    github: "https://github.com/Harshita772/ICS_Major_Maze_Game",
     featured: false,
   },
 ];
@@ -61,25 +59,33 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
           <div className="p-3 rounded-lg bg-primary/10 text-primary">
             <Folder size={24} />
           </div>
+
           <div className="flex items-center gap-3">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-              aria-label="View GitHub repository"
-            >
-              <Github size={20} />
-            </a>
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-              aria-label="View live demo"
-            >
-              <ExternalLink size={20} />
-            </a>
+            {/* GitHub link – show only if available */}
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="View GitHub repository"
+              >
+                <Github size={20} />
+              </a>
+            )}
+
+            {/* Live link – show only if available */}
+            {project.live && (
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="View live demo"
+              >
+                <ExternalLink size={20} />
+              </a>
+            )}
           </div>
         </div>
 

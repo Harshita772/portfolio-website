@@ -5,29 +5,30 @@ import { Briefcase, Award, GraduationCap } from "lucide-react";
 
 // EDIT YOUR EXPERIENCE/ACHIEVEMENTS HERE
 const experiences = [
-  {
-    type: "education",
-    icon: GraduationCap,
-    title: "Bachelor's in Computer Science",
-    organization: "University Name",
-    period: "2021 - Present",
-    description: "Pursuing a degree in Computer Science with focus on software development and algorithms.",
-  },
+  
   {
     type: "experience",
     icon: Briefcase,
-    title: "Software Development Intern",
-    organization: "Company Name",
-    period: "Summer 2023",
+    title: "Technical Intern",
+    organization: "Tech Mahindra",
+    period: "Summer 2026",
     description: "Worked on developing and maintaining web applications using React and Node.js. Collaborated with the team on various projects.",
   },
   {
     type: "achievement",
     icon: Award,
-    title: "Hackathon Winner",
-    organization: "Tech Event Name",
-    period: "2023",
-    description: "First place in a 24-hour hackathon, developing an innovative solution for sustainable technology.",
+    title: "Intenship Representative",
+    organization: "Carrer and Development Cell, IIT Jodhpur",
+    period: "2025-26",
+    description: "Reached out to companies and firms to bring placement and internship opportunities for students.",
+  },
+  {
+    type: "education",
+    icon: GraduationCap,
+    title: "Bachelor's of Technology in Electrical Engineering",
+    organization: "Indian Institute of Technology, Jodhpur",
+    period: "2023 - Present",
+    description: "",
   },
 ];
 
