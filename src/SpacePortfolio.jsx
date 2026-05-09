@@ -661,7 +661,7 @@ export default function SpacePortfolio() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.65, delay: 1.3, ease: [0.16, 1, 0.3, 1] }}
           >
-            <SolarFlareButton href="./Harshita_Vachhani_Resume.pdf">
+            <SolarFlareButton href="Harshita_Vachhani_Resume.pdf">
               <Download size={17} />
               Download My Resume
             </SolarFlareButton>
